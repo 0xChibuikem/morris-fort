@@ -8,18 +8,27 @@ export const appConfig = {
   },
 
   seo: {
-    title: "Morris Forte",
-    description: "Morris Forte Consulting - Your partner in business success.",
+    title: "Morris Forte - Renewable Energy Solutions & Consulting",
+    description: "Morris Forte Consulting provides expert renewable energy solutions, solar installations, and energy efficiency consulting for businesses and homes.",
     keywords: [
       "Morris Forte",
-      "consulting",
-      "business success",
-      "Petroleum",
-      "Oil and Gas",
+      "renewable energy",
+      "solar solutions",
+      "energy consulting",
+      "solar installation",
+      "energy efficiency",
+      "green energy",
+      "sustainable solutions",
+      "commercial solar",
+      "residential solar",
     ],
-    author: "Moris Forte",
-    creator: "Moris Forte",
-    publisher: "Moris Forte",
+    author: "Morris Forte",
+    creator: "Morris Forte",
+    publisher: "Morris Forte Consulting",
+    themeColor: "#4CAF50",
+    alternates: {
+      canonical: "https://morrisforteconsulting.com",
+    },
   },
 
   images: {
@@ -29,5 +38,12 @@ export const appConfig = {
     ogImage: "/og-image.jpg",
     twitterImage: "/twitter-image.jpg",
     defaultImage: "/default-image.jpg",
+  },
+
+  social: {
+    twitter: "@morrisforte",
+    facebook: "morrisforteconsulting",
+    instagram: "morrisforteconsulting",
+    linkedin: "morris-forte-consulting",
   },
 };
