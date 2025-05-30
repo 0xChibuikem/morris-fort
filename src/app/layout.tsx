@@ -96,7 +96,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${rajdhani.variable} ${rubik.variable}`}>
+    <html lang="en\" className={`${rajdhani.variable} ${rubik.variable}`}>
       <body>
         <TopLinks />
         <Header />
